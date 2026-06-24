@@ -761,7 +761,7 @@ export default function HomePage() {
                   ))}
                 </div>
                 <p className="text-[#1a1a2e]/80 text-sm leading-relaxed flex-1">
-                  "{review.text}"
+                  &ldquo;{review.text}&rdquo;
                 </p>
                 <div className="flex items-center gap-3 pt-2 border-t border-black/5">
                   <div className="w-9 h-9 rounded-full overflow-hidden bg-[#f5f4f0] flex-shrink-0">
