@@ -757,9 +757,7 @@ export default function HomePage() {
                 {/* Stars */}
                 <div className="flex items-center gap-0.5">
                   {[1, 2, 3, 4, 5].map((s) => (
-                    <Star key={s} size={14} className="fill-[#e94560] text-[#e94560]" />
-                  ))}
-                </div>
+                    <Star key={s} size={14} className="fill-[#e94560] text-[#e94560]" />“The leather watch arrived beautifully packaged. It looks far more expensive than it is.”</div>
                 <p className="text-[#1a1a2e]/80 text-sm leading-relaxed flex-1">
                   &ldquo;{review.text}&rdquo;
                 </p>
